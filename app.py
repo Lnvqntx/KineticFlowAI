@@ -49,6 +49,7 @@ st.markdown(
 # -----------------------
 # Sidebar navigation
 # -----------------------
+st.sidebar.image("logo.png", use_container_width=True)
 st.sidebar.title("⚙️ Kinetic Flow AI")
 st.sidebar.markdown("---")
 page = st.sidebar.radio(
